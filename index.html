@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal porfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f70ba21a6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo4.c.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi,I'm <span>Viknesh</span><br>From Tirunelveli</h1>
+      </div>
+    </div>
+  </div>
+  <! ----------about-------------- !>
+  <div class="#about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="user2.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I'm Viknesh from Tirunelveli! I am currently doing my Bsc.cs in Sri paramkalyani college.I love programming,blogging and taking photos.Love to learn new things,Currently learning web development to get traffic and I provided some of my work below this.
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Certfications</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web app Interface</li>
+              <li><span>Web Development</span><br>Developing a user-friendly website</li>
+              <li><span>Blogging</span><br>scribbling out the things I known</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021 </span><br>Python fundamentals</li>
+              <li><span>2021-2021</span><br>excels for beginners</li>
+              <li><span>2022</span><br>front end development </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2020</span><br>A.V.Rm.V matriculation higher secondary school</li>
+              <li><span>2021-2024</span><br>Sri Paramkalyani college</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--------------services--------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Our websites are designed to work seamlessly on all devices. We use the most advanced techniques in web design—including responsive, mobile optimization, HTML5 and CSS3, and several different CMS models—to best suit the needs of our clients. From brochure websites to e-commerce solutions, we provide a superior, customized user experience.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>When it comes to creating an impressive UX portfolio, it’s important to understand exactly what your portfolio should achieve. What information should your portfolio present? What do you want people to learn about you and your work when they land on your portfolio?
+Your UX design portfolio is not just a virtual gallery of all your most beautiful work. It’s a carefully crafted story that offers a behind-the-scenes look at your methods and processes.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ------------Contact-------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>vikneshdeivakumar7@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>8838018316</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/viknesh_deivakumar/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/wickk_e?t=6bU5Ve9Vg8BqsFEPlJUsdQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://github.com/vikneshDeivakumar"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/viknesh-deivakumar-5641a2215"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your name" required><br>
+          <input type="email" name="email"placeholder="Your email" required>
+          <textarea name="Message" rows="6" cols="80" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+
+      </div>
+
+
+    </div>
+
+  </div>
+<div class="copyright">
+  <p>Copyright Ⓒ Vikneshdeivakumar2023</p>
+
+</div>
+</div>
+ <script src="index.js"></script>
+  </body>
+</html>
